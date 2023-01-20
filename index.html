@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Star Wars API</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-items txt-shadow-red">
+            <h2>Starships</h2>
+            <div>
+              <button id="starships-previous" type="button">&lt&lt Previous</button>
+              <button id="starships-next" type="button">Next &gt&gt</button>
+            </div>
+          </div>
+    </nav>
+    <main>
+          
+        <div class="txt-shadow-red">
+          <h1 class="main-title">STAR WARS API</h1>
+          <h2 class="main-title">Use the previous and next buttons to view the information provided by the Star Wars API</h2>    
+        </div>
+        <div id="ctn-main" class="ctn"></div>  
+      </main>
+    <div class="overlay">
+        <div class="loading">Loading...</div>
+    </div>
+
+    <script src="/dist/app.js" defer></script> 
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2"
+  }
+}

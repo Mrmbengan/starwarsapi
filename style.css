@@ -1,0 +1,126 @@
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(images/3d-hyperspace-background-with-warp-tunnel-effect.jpg); no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+nav {
+height: 105px;
+display: flex;
+display: flex;
+flex-direction: column;
+justify-content: center;  
+align-items: center;
+border: 5px solid rgb(0, 255, 208);
+
+overflow: hidden;
+background-color: rgba(0,0,0,0.9);
+position: fixed; 
+top: 0; 
+width: 100%; 
+}
+  
+.nav-items {
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: large;
+
+}
+
+.txt-shadow-gold {
+text-shadow: 1px 1px 1px gold;
+}
+.txt-shadow-red {
+text-shadow: 1px 1px 1px rgb(0, 195, 255);
+}
+.txt-shadow-blue {
+text-shadow: 1px 1px 1px blue;
+}
+  
+button:hover {
+cursor: pointer;
+}
+  
+main {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;  
+align-items: center;
+}
+  
+.main-title {
+color: rgb(249, 243, 207);
+text-align: center;
+}
+  
+#ctn-main {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;  
+}
+  
+#ctn-SpaceShips {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+  
+.card {
+border-radius: 25px;
+background-color: rgba(0,0,0,0.9);
+width: 250px;
+min-width: 250px;
+text-wrap: wrap;
+text-align: center;
+margin: 15px;
+padding: 5px;  
+}
+  
+
+  
+.card-starships {
+    border: 5px solid rgb(0, 255, 208);
+    text-shadow: 1px 1px 1px red;
+}
+  
+  
+  
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgba(0,0,0,0.8);
+display: none;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+  
+.overlay.active {
+display: flex;
+cursor: wait;
+}
+  
+@media only screen and (max-width: 1000px){
+body {
+    font-size: x-large;
+}
+nav {
+    height: 125px;
+}
+
+button {
+    height: 20px;
+}
+}
